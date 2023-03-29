@@ -14,9 +14,9 @@
     font-family: var(--default-font);
 }
 
-body {
+/*body {
     height: 100vh;
-}
+}*/
 
 section.main {
     height: 100%;
@@ -25,7 +25,6 @@ section.main {
 }
 
 aside {
-    height: 100%;
     width: 20%;
     background-color: var(--primary-color);
 }
@@ -161,3 +160,44 @@ button:hover {
     background-color: var(--fc-one);
     transition: 0.2s;
 }
+
+.part_two {
+    display: flex;
+    height: 75%;
+    width: 100%;
+}
+
+.projects {
+    width: 70%;
+    height: 100%;
+    padding: 40px;
+}
+
+.socials {
+    width: 30%;
+    height: 100%;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    row-gap: 20px;
+}
+
+.griditem {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px;
+    border-left: 7px solid var(--grid-border-color);
+    border-radius: 10px;
+    height: 180px;
+    width: 350px;
+}
+
+.griditem:hover {
+    cursor: pointer;
+    border-left: 7px solid rgb(104, 126, 62);
+}
+
+
