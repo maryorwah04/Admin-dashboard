@@ -1,1 +1,6 @@
-
+:root {
+    --default-font: 'Open sans', sans serif;
+    --primary-color: rgb(62, 167, 209);
+    --grid-border-color: rgb(221, 209, 35);
+    
+}
