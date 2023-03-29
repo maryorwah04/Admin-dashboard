@@ -2,6 +2,7 @@
     --default-font: 'Open sans', sans serif;
     --primary-color: rgb(60, 119, 207);
     --grid-border-color: rgb(221, 209, 35);
+    --fc-one: #fff;
     
 }
 
@@ -30,4 +31,15 @@ aside {
 main {
     height: 100%;
     width: 80%;
+}
+
+.aside_links {
+    height: 100%;
+    color: var(--fc-one);
+    font-family: var(--default-font);
+    margin: 20px;
+}
+
+.mdi {
+    font-size: 35px;
 }
