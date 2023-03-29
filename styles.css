@@ -75,9 +75,8 @@ main {
 }
 
 section.part_one {
-    padding-left: 40px;
-    padding-top: 10px;
-    height: 20%;
+    padding: 10px 30px 0 40px;
+    height: 25%;
     background-color: var(--fc-one);
     width: 100%;
     box-shadow: 0 0 5px ;
@@ -85,6 +84,7 @@ section.part_one {
 
 .search {
     font-size: var(--margin-one);
+    line-height: 50px;
 }
 
 input {
@@ -102,4 +102,62 @@ input:focus {
     outline: none;
     box-shadow: 0 0 20px;
     height: 40px;
+}
+
+.profile {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.name, .p_avatar, .mdi-bell-ring {
+    float: right;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+.name {
+    font-weight: 900;
+}
+
+.name:hover {
+    cursor: pointer;
+}
+
+.mdi-bell-ring:hover {
+    cursor: pointer;
+}
+
+.profile_para {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.greeting {
+    display: flex;
+    gap: 10px;
+}
+
+.task {
+    display: flex;
+    margin: 0;
+}
+
+button {
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    border: none;
+    color: var(--fc-one);
+    font-size: large;
+}
+
+button:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+    background-color: var(--fc-one);
+    transition: 0.2s;
 }
