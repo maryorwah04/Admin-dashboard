@@ -4,3 +4,12 @@
     --grid-border-color: rgb(221, 209, 35);
     
 }
+
+*,
+body,
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
