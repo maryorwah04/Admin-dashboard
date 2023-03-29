@@ -3,6 +3,7 @@
     --primary-color: rgb(60, 119, 207);
     --grid-border-color: rgb(221, 209, 35);
     --fc-one: #fff;
+    --margin-one: 20px;
     
 }
 
@@ -37,9 +38,35 @@ main {
     height: 100%;
     color: var(--fc-one);
     font-family: var(--default-font);
-    margin: 20px;
+    margin: var(--margin-one);
 }
 
-.mdi {
+.mdi mdi-view-dashboard {
     font-size: 35px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: var(--margin-one);
+    margin-top: 50px;
+}
+
+li {
+    margin: var(--margin-one) auto;
+}
+
+.list_two > li:hover {
+    cursor: pointer;
+    font-size: 30px;
+    box-shadow: inset 0 0 30px;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+}
+
+.list_one > li:hover {
+    cursor: pointer;
+    font-size: 30px;
+    box-shadow: inset 0 0 30px;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
 }
