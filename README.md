@@ -8,7 +8,7 @@ I used the project to practice Emmet, css variables, forms, pseudo-class/element
 
 ### Live Demo
 
-[Live Demo link](https://maryorwah04.github.io/New-scientist-clone/)
+[Live Demo link](https://maryorwah04.github.io/Admin-dashboard/)
 
 
 
@@ -22,7 +22,7 @@ I used the project to practice Emmet, css variables, forms, pseudo-class/element
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/maryorwah04/New-scientist-clone/issues).
+Feel free to check the [issues page](https://github.com/maryorwah04/Admin-dashboard/issues)).
 
 ## Show your support
 
