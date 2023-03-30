@@ -5,8 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign in</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
-<body>
-    
+<body class="bdy">
+    <section class="flex_form">
+        <img class="logo" src="./assets/logo.jpeg">
+        <div class="form">
+            <div class="welcome">WELCOME</div>
+            <form action="#">
+                <label for="Username">Username 
+                    <span class="mdi mdi-account"></span><br>
+                    <input type="text" class="Username">
+                </label>
+
+                <label for="Email">Email 
+                    <span class="mdi mdi-email-outline"></span><br>
+                    <input type="email" class="email">
+                </label>
+
+                <label for="Password" class="password">Password<span class="mdi mdi-eye-off"></span><br> 
+                    <input type="password" class="Password" min="8" max="16">
+                </label>
+
+                <button class="Login">
+                    <a href="dashboard.html">Login to Dashboard</a>
+                </button>
+            </form>
+    </section>
 </body>
 </html>
