@@ -95,7 +95,7 @@ input {
 
 input:focus {
     outline: none;
-    box-shadow: 0 0 20px;
+    box-shadow: 0 0 var(--margin-one);
     height: 40px;
 }
 
@@ -107,7 +107,7 @@ input:focus {
 .name, .p_avatar, .mdi-bell-ring {
     float: right;
     line-height: 50px;
-    margin-left: 20px;
+    margin-left: var(--margin-one);
 }
 
 .name {
