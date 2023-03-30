@@ -1,4 +1,4 @@
-/*DASHBOARD*/
+/* DASHBOARD */
 
 :root {
     --default-font: 'Open sans', sans serif;
@@ -34,7 +34,7 @@ aside {
     margin: var(--margin-one);
 }
 
-.mdi mdi-view-dashboard {
+.mdi-view-dashboard {
     font-size: 35px;
 }
 
@@ -52,7 +52,7 @@ li {
     cursor: pointer;
     font-size: larger;
     box-shadow: inset 0 0 30px;
-    border-radius: var(--box-shadow);;
+    border-radius: var(--box-shadow);
     transition: 0.3s ease-out;
 }
 
@@ -60,7 +60,7 @@ li {
     cursor: pointer;
     font-size: larger;
     box-shadow: inset 0 0 30px;
-    border-radius: var(--box-shadow);;
+    border-radius: var(--box-shadow);
     transition: 0.3s ease-out;
 }
 
@@ -76,7 +76,7 @@ section.part_one {
     height: 25%;
     background-color: var(--fc-one);
     width: 100%;
-    box-shadow: 0 0 5px ;
+    box-shadow: 0 0 5px;
 }
 
 .search {
@@ -106,7 +106,9 @@ input.search_input:focus {
     margin-bottom: 20px;
 }
 
-.name, .p_avatar, .mdi-bell-ring {
+.name,
+.p_avatar,
+.mdi-bell-ring {
     float: right;
     line-height: 50px;
     margin-left: 20px;
@@ -133,7 +135,7 @@ input.search_input:focus {
 
 .greeting {
     display: flex;
-    gap: var(--box-shadow);;
+    gap: var(--box-shadow);
 }
 
 .task {
@@ -142,7 +144,7 @@ input.search_input:focus {
 }
 
 button {
-    margin-left: var(--box-shadow);;
+    margin-left: var(--box-shadow);
     height: 40px;
     width: 100px;
     background-color: var(--primary-color);
@@ -210,14 +212,13 @@ button:hover {
     padding: 20px;
     height: 120%;
     width: 110%;
-    border-radius: var(--box-shadow);;
+    border-radius: var(--box-shadow);
     background: var(--fc-one);
-    box-shadow: 0 0 var(--box-shadow);;
+    box-shadow: 0 0 var(--box-shadow);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 
 .Trending {
     margin-top: 20px;
@@ -229,9 +230,9 @@ button:hover {
     padding: 20px;
     height: 100%;
     width: 100%;
-    border-radius: var(--box-shadow);;
+    border-radius: var(--box-shadow);
     background: var(--fc-one);
-    box-shadow: 0 0 var(--box-shadow);;
+    box-shadow: 0 0 var(--box-shadow);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -241,7 +242,7 @@ button:hover {
     display: flex;
 }
 
-/*INDEX*/
+/* INDEX */
 
 .bdy {
     height: 100vh;
@@ -251,8 +252,6 @@ button:hover {
 }
 
 .flex_form {
-    height: fit-content;
-    width: fit-content;
     display: flex;
     height: 80%;
     width: 60%;
@@ -265,7 +264,8 @@ img.logo {
 .form {
     width: 60%;
     padding: 20px;
-    background-image: linear-gradient(rgba(80, 65, 65, 0.562), rgba(0, 0, 0, 1)),
+    background-image:
+     linear-gradient(rgba(80, 65, 65, 0.562), rgba(0, 0, 0, 1)),
      url("./assets/paper-business-aerial-analysis.jpg");
 }
 
